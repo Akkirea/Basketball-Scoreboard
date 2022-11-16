@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Arimo:wght@400;500&family=Changa&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h3 class="home-h3">HOME</h3>
+      <div class="homescore">
+        <div>
+          <h1 id="num1-el" class="homepoints">0</h1>
+        </div>
+      </div>
+      <div class="home-container">
+        <div class="home-btn">
+          <button type="button" class="btn btn-outline-secondary" onclick="addOne()">+1</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="addTwo()">+2</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="addThree()">+3</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div>
+      <h3 class="guest-h3">GUEST</h3>
+      <div class="guestscore">
+        <h1 id="guest-el"class="guestpoints">0</h1>
+      </div>
+      <div class="guest-container">
+        <div class="guest-btn">
+          <button type="button" class="btn" onclick="guestOne()">+1</button>
+          <button type="button" class="btn" onclick="guestTwo()">+2</button>
+          <button type="button" class="btn" onclick="guestThree()">+3</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
