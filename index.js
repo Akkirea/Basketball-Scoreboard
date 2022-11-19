@@ -1,6 +1,8 @@
 let count = 0
+let guestCount = 0
 
 let numEl = document.getElementById("num1-el")
+let guestEl = document.getElementById("guest-el")
 
 
 
@@ -21,13 +23,13 @@ function addThree() {
 // ****GUEST****
 
 function guestOne() {
-  document.getElementById("guest-el").textContent = count += 1
+  document.getElementById("guest-el").textContent = guestCount += 1
 }
 
 function guestTwo() {
-  document.getElementById("guest-el").textContent = count += 2
+  document.getElementById("guest-el").textContent = guestCount += 2
 }
 
 function guestThree() {
-  document.getElementById("guest-el").textContent = count += 3
+  document.getElementById("guest-el").textContent = guestCount += 3
 }
